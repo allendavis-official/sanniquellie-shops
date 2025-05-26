@@ -101,6 +101,7 @@ async function loadProducts() {
 }
 
 function renderProducts(products) {
+  const productList = document.getElementById("product-list");
   if (!products || products.length === 0) {
     productList.innerHTML =
       '<div class="no-results">No products available</div>';
