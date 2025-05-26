@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "legend-spot",
+    "businessName": "Legend's Spot",
+    "address": "Main Street, Sanniquellie",
+    "hours": "8AM - 11PM",
+    "whatsapp": "231770123456",
+    "sheetName": "LegendSpot"
+  },
+  {
+    "slug": "city-mart",
+    "businessName": "City Mart",
+    "address": "Market Road, Sanniquellie",
+    "hours": "8AM - 11PM",
+    "whatsapp": "231770123456",
+    "sheetName": "CityMart"
+  }
+]
