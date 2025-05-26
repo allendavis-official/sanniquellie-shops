@@ -47,6 +47,7 @@ async function loadShopData() {
     const shopsResponse = await fetch("/shops/shops.json");
     const shops = await shopsResponse.json();
     currentShop = shops.find((s) => s.slug === shopName);
+    console.log(shops);
 
     if (!currentShop) {
       document.getElementById("shop-name").textContent = "Shop not found";
